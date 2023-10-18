@@ -1,0 +1,36 @@
+$primary__color: #113f67;
+$secondary__color: #38598b;
+$third__color: #a2a8d3;
+$text__color: #e7eaf6;
+.CocktailList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 100px;
+
+
+  .CocktailList__Card {
+
+    width: 350px;
+    height: 100px;
+    margin: 80px;
+  
+
+  }
+
+  .CocktailList__Img {
+    width: 210px;
+    height: 210px;
+  
+  }
+}
+
+@media screen and (max-width:767px) {
+
+    .CocktailList{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
