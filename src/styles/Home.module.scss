@@ -1,0 +1,39 @@
+$primary__color: #113f67;
+$secondary__color: #38598b;
+$third__color: #a2a8d3;
+$text__color: #e7eaf6;
+.Home{
+    width: 100%;
+    height: 100vh;
+ 
+
+    .Home__Hero{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+padding-right: 80px;
+        
+        width: 100%;
+        height: 90%;
+        background-image: url("../../public/HeroImg.jpg");
+    }
+
+    .Home__Text{
+ 
+        color: rgb(0, 0, 0);
+         font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+
+    .Home{
+        .Home__Hero{
+            padding-right: 40px;
+            width: auto;
+          
+        }
+    }
+}
